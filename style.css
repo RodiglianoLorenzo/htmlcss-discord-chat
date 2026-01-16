@@ -32,16 +32,28 @@ footer{
 .nav_task{
     color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: space-around;
+    padding-top: 25px;
+    gap: 10px;
+    
     img{
         border-radius: 50%;
+        transform: translate(0, -10px);
     }
     
     i{
         font-size: 25px;
+        transform: translate(0, -10px);
+        
     }    
-    
+
+    .name_navtask{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    span{
+        font-size: 12px;
+    }
 }
