@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 512px;
+}
+
+
+.main_discord{
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chat{
+    overflow: auto;
+}
+
+
+footer{
+    height: 80px;
+    background-color: rgb(117, 116, 116);
+    flex-shrink: 0;
+    
+}
+
+.nav_task{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    img{
+        border-radius: 50%;
+    }
+    
+    i{
+        font-size: 25px;
+    }    
+    
+}
